@@ -2,13 +2,19 @@ header {
     display: grid;
     grid-template-columns: 5fr 5fr;
   
+  
 }
 
 .vlevo-nadpis {
-    background-color: bisque;
+    background-color: rgb(0, 0, 0, 0.9);
+    padding-left: 100px;
 }
 
-.vlevo-nadpis {
+.vlevo-nadpis img {
+    height: 100px;
+}
+
+.vpravo-nadpis {
     background-color: blue;
     display: inline;
 }
