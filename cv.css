@@ -1,0 +1,14 @@
+header {
+    display: grid;
+    grid-template-columns: 5fr 5fr;
+  
+}
+
+.vlevo-nadpis {
+    background-color: bisque;
+}
+
+.vlevo-nadpis {
+    background-color: blue;
+    display: inline;
+}
