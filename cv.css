@@ -1,8 +1,6 @@
 header {
     display: grid;
     grid-template-columns: 5fr 5fr;
-
-
 }
 
 .vlevo-nadpis {
@@ -28,4 +26,19 @@ header {
     padding: 15px;
     text-transform: uppercase;
     font-family: roboto;
+}
+
+section {
+    background-color: black;
+    height: 600px;
+    display: flex;
+    align-items: top;
+    justify-content: center;
+    display: flex;
+
+}
+
+.CV_foto img {
+    height: 300px;
+    padding-top: 0px;
 }
