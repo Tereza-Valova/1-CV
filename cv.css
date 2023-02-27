@@ -29,43 +29,60 @@ header {
 }
 
 section {
-    background: linear-gradient( rgba(0, 0, 0, 0.9),  rgba(0, 0, 0, 0.9)), url("pic/keyboard.jpg");
+    background: linear-gradient(rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0.9)), url("pic/keyboard.jpg");
     height: 600px;
     display: grid;
     align-items: top;
     justify-content: center;
     background-size: cover;
     background-position: center;
-   
-    
-
-
 }
 
 .CV_foto {
     background-color: rgba(24, 24, 24, 1);
     margin: 40px 0;
-    border-radius: 5px;
-    
-  
-   
+    border-radius: 5px
+
 }
 
-.CV_foto img {
+.CV_foto .profilovka {
     height: 300px;
-  
+
 }
 
-.CV_foto h1, 
+.CV_foto h1,
 .CV_foto h5 {
     color: rgb(255, 255, 255, 0.8);
     text-align: center;
-    
-
 }
+
 
 .CV_foto h1 {
     font-family: roboto;
     text-transform: uppercase;
+}
+
+.media {
+    display: grid;
+    grid-auto-flow: column;
+
+  
+    justify-content: center;
+    
+
+}
+
+.media li {
+    display: inline;
+    padding: 10px;
+   
+
+
+}
+
+.media a {
+    height: 20px;
+   
+
 
 }
