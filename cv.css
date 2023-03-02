@@ -83,6 +83,7 @@ body {
 
 }
 
+
 .media a {
     height: 20px;
 
@@ -96,7 +97,8 @@ body {
 
 .o_mne,
 .dovednosti,
-.profesni-cesta {
+.profesni-cesta
+ {
     padding: 3% 20%;
 
 }
@@ -165,3 +167,31 @@ body {
     text-align: center;
 
 }
+
+
+footer {
+    height: 200px;
+    background-color: rgba(176, 100, 147, 0.7);
+    padding: 1% 20%;
+}
+
+footer h1 {
+    color: rgb(255, 255, 255, 0.8);
+}
+
+footer h6{
+    color:rgba(0, 0, 0, 0.9);
+    text-transform: uppercase;
+}
+
+.mail {
+    padding-top: 2%;
+    color: rgb(255, 255, 255, 0.8);
+}
+
+.copyright {
+    color:  rgb(255, 255, 255, 0.8);
+    text-align: right;
+    font-size: 8px;
+}
+
