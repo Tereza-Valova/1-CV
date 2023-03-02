@@ -154,6 +154,14 @@ body {
     font-family:  'Libre Baskerville', serif;
 }
    
-.graficke {
-    
+
+
+
+.grafika p {
+    color:  rgba(176, 100, 147, 0.7);
+    font-family: 'Roboto', sans-serif;
+    font-size: 40px;
+    padding: 3% 30% ;
+    text-align: center;
+
 }
