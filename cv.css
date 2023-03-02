@@ -1,6 +1,7 @@
-header {
+header .hlavicka {
     display: grid;
-    grid-template-columns: 5fr 5fr;
+    
+    grid-template-columns: 1fr 1fr;
 }
 
 .vlevo-nadpis {
@@ -28,7 +29,7 @@ header {
     font-family: roboto;
 }
 
-section {
+.úvod {
     background: linear-gradient(rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0.9)), url("pic/keyboard.jpg");
     height: 600px;
     display: grid;
@@ -65,18 +66,12 @@ section {
 .media {
     display: grid;
     grid-auto-flow: column;
-
-  
     justify-content: center;
-    
-
 }
 
 .media li {
     display: inline;
     padding: 10px;
-   
-
 
 }
 
@@ -86,3 +81,25 @@ section {
 
 
 }
+
+ .sloupce {
+    display: grid;
+    grid-template-columns: 50% 50%;
+   
+} 
+
+.o_mne, 
+.dovednosti {
+    background-color: rgb(0, 0, 0, 0.9);
+    padding: 2%;
+}
+
+.o_mne h1,
+.o_mne p,
+.dovednosti h1,
+.dovednosti p 
+ {
+    color: rgb(255, 255, 255, 0.8);
+}
+
+

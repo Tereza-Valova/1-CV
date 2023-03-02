@@ -1,62 +1,265 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>CV</title>
-    <link rel="stylesheet" href="cv.css">
-    <style>
-        @import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
-        </style>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>CV</title>
+  <link rel="stylesheet" href="cv.css">
+  <link rel="stylesheet" href="progressbar.css">
+  <link rel="stylesheet" href="tricetprogressbar.css">
+
+  <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+  <style>
+    @import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+  </style>
 
 </head>
 
 <body>
 
 
-    <header>
+  <header class="hlavicka">
 
-        <div class="vlevo-nadpis">
-            <img src="pic/CV_jmeno.png" alt="Nápis jmeno">
+    <div class="vlevo-nadpis">
+      <img src="pic/CV_jmeno.png" alt="Nápis jmeno">
+    </div>
+
+    <div class="vpravo-nadpis">
+
+      <ul>
+        <li>Úvod</li>
+        <li>O mně</li>
+        <li>Dovednosti</li>
+        <li>Zkušenosti</li>
+      </ul>
+    </div>
+
+  </header>
+
+
+  <section class="úvod">
+
+    <div class="CV_foto">
+
+      <img class="profilovka" src="pic/CV_foto.png" alt="CV foto">
+
+      <h1>Tereza Valová</h1>
+      <h5>Lektorka ve výslužbě, UX v zácviku</h4>
+
+        <ul class="media">
+          <li class="lin"><a href="https://www.linkedin.com/in/terezavalova/"><img src="pic/linkedin.png"
+                alt="linkedin"></a>
+          </li>
+          <li class="fb"><a href="https://www.facebook.com/tereza.valova01"><img src="pic/facebook.png"
+                alt="facebook"></a></li>
+          <li class="in"><a href="https://www.instagram.com/okpuru/"><img src="pic/instagram.png" alt="instagram"></a>
+          </li>
+        </ul>
+
+    </div>
+
+
+
+  </section>
+
+
+
+  <section class="o_mne">
+
+    <h1>O mně</h1>
+
+    <p>Ahoj! Já jsem Tereza. Toho času končím pracovní pozici školitelky/lektorky a začínám zkoušet, co by mě bavilo
+      dál.
+      Velmi okrajově se nějakou dobu zajímám o tvorbu webu a základy programování. Zároveň se pomalu rozkoukávám na poli
+      UX a první realizovaný návrh.</p>
+
+
+  </section>
+
+  <section class="dovednosti">
+    
+    <h1>Dovednosti</h1>
+    <p>Co umím a jak moc.</p>
+
+
+
+    <div class="sloupce">
+
+      <div class="levy">
+       <p class="softy">Profesionální dovednosti</p>
+
+
+        <p>Vedení školení</p>
+        <div class="box">
+
+
+
+          <div class="progressbar">
+            <div class="deset_procent deset"></div>
+            <div class="deset_procent dvacet"></div>
+            <div class="deset_procent tricet"></div>
+            <div class="deset_procent ctyricet"></div>
+            <div class="deset_procent padesat"></div>
+            <div class="deset_procent sedesat"></div>
+            <div class="deset_procent sedmdesat"></div>
+            <div class="deset_procent osmdesat"></div>
+            <div class="deset_procent devadesat"></div>
+            <div class="deset_procent sto"></div>
+          </div>
+
+          <div class="popis-boxu">80 %</div>
+
         </div>
 
-        <div class="vpravo-nadpis">
 
-            <ul>
-                <li>Úvod</li>
-                <li>O mně</li>
-                <li>Dovednosti</li>
-                <li>Zkušenosti</li>
-            </ul>
+
+      </div>
+
+      <div class="pravy">
+        <p class="hardy">Technické dovednosti</p>
+        <p>Canva</p>
+        <div class="box">
+
+          <div class="progressbar">
+            <div class="deset_procent deset-canva"></div>
+            <div class="deset_procent dvacet-canva"></div>
+            <div class="deset_procent tricet-canva"></div>
+            <div class="deset_procent ctyricet-canva"></div>
+            <div class="deset_procent padesat-canva"></div>
+            <div class="deset_procent sedesat-canva"></div>
+            <div class="deset_procent sedmdesat-canva"></div>
+            <div class="deset_procent osmdesat-canva"></div>
+            <div class="deset_procent devadesat-canva"></div>
+            <div class="deset_procent sto-canva"></div>
+          </div>
+
+          <div class="popis-boxu">80 %</div>
+
         </div>
-    </header>
+
+      </div>
+    </div>
+
+    <div class="sloupce">
+
+      <div class="levy">
 
 
-    <section>
-
-        <div class="CV_foto">
-     
-            <img class="profilovka" src="pic/CV_foto.png" alt="CV foto">
-
-            <h1>Tereza Valová</h1>
-            <h5>Lektorka ve výslužbě, UX v zácviku</h4>
-
-                <ul class="media">
-                    <li class="odkaz"><a href="https://www.linkedin.com/in/terezavalova/"><img src="pic/linkedin.png" alt="linkedin"></a>
-                    </li>
-                    <li class="odkaz"><a href="https://www.facebook.com/tereza.valova01"><img src="pic/facebook.png" alt="facebook"></a></li>
-                    <li class="odkaz"><a href="https://www.instagram.com/okpuru/"><img src="pic/instagram.png" alt="instagram"></a></li>
-                </ul>
-
-            </div>
-              
-    
+        <p>Tvorba školení</p>
+        <div class="box">
 
 
-      
 
-    </section>
-    
+          <div class="progressbar">
+            <div class="deset_procent deset-tvorba "></div>
+            <div class="deset_procent dvacet-tvorba"></div>
+            <div class="deset_procent tricet-tvorba"></div>
+            <div class="deset_procent ctyricet-tvorba"></div>
+            <div class="deset_procent padesat-tvorba"></div>
+            <div class="deset_procent sedesat-tvorba"></div>
+            <div class="deset_procent sedmdesat-tvorba"></div>
+            <div class="deset_procent osmdesat-tvorba"></div>
+            <div class="deset_procent devadesat-tvorba"></div>
+            <div class="deset_procent sto-tvorba"></div>
+          </div>
+
+          <div class="popis-boxu">90 %</div>
+
+        </div>
+
+      </div>
+
+      <div class="pravy">
+        <p>Figma</p>
+        <div class="box">
+
+          <div class="progressbar">
+            <div class="deset_procent deset-figma"></div>
+            <div class="deset_procent dvacet-figma"></div>
+            <div class="deset_procent tricet-figma"></div>
+            <div class="deset_procent ctyricet-figma"></div>
+            <div class="deset_procent padesat-figma"></div>
+            <div class="deset_procent sedesat-figma"></div>
+            <div class="deset_procent sedmdesat-figma"></div>
+            <div class="deset_procent osmdesat-figma"></div>
+            <div class="deset_procent devadesat-figma"></div>
+            <div class="deset_procent sto-figma"></div>
+          </div>
+
+          <div class="popis-boxu">30 %</div>
+
+        </div>
+
+      </div>
+
+    </div>
+
+
+    <div class="sloupce">
+
+      <div class="levy">
+
+
+        <p>Kreativita</p>
+        <div class="box">
+
+
+
+          <div class="progressbar">
+            <div class="deset_procent deset-kreativ "></div>
+            <div class="deset_procent dvacet-kreativ"></div>
+            <div class="deset_procent tricet-kreativ"></div>
+            <div class="deset_procent ctyricet-kreativ"></div>
+            <div class="deset_procent padesat-kreativ"></div>
+            <div class="deset_procent sedesat-kreativ"></div>
+            <div class="deset_procent sedmdesat-kreativ"></div>
+            <div class="deset_procent osmdesat-kreativ"></div>
+            <div class="deset_procent devadesat-kreativ"></div>
+            <div class="deset_procent sto-kreativ"></div>
+          </div>
+
+          <div class="popis-boxu">70 %</div>
+
+        </div>
+
+
+
+      </div>
+
+      <div class="pravy">
+        <p>HTML a CSS</p>
+        <div class="box">
+
+          <div class="progressbar">
+            <div class="deset_procent deset-html-css"></div>
+            <div class="deset_procent dvacet-html-css"></div>
+            <div class="deset_procent tricet-html-css"></div>
+            <div class="deset_procent ctyricet-html-css"></div>
+            <div class="deset_procent padesat-html-css"></div>
+            <div class="deset_procent sedesat-html-css"></div>
+            <div class="deset_procent sedmdesat-html-css"></div>
+            <div class="deset_procent osmdesat-html-css"></div>
+            <div class="deset_procent devadesat-html-css"></div>
+            <div class="deset_procent sto-html-css"></div>
+          </div>
+
+          <div class="popis-boxu">10 %</div>
+
+        </div>
+
+      </div>
+
+
+
+
+
+
+  </section>
+
+
+
 </body>
+
 </html>
