@@ -1,2 +1,2 @@
 # 1-CV
-Webpage only 
+Pouze webová stránka, není respozivní pro mobily
