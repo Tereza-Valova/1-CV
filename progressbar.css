@@ -1,28 +1,26 @@
 .box {
-    display:grid;
-    grid-template-columns: 8fr 2fr; 
- 
+  display: grid;
+  grid-template-columns: 8fr 2fr;
 }
 
 .popis-boxu {
-    color:  rgb(255, 112, 197, 0.7);
+  color: rgb(255, 112, 197, 0.7);
 }
 
 .levy p,
 .pravy p {
-    color: rgb(255, 255, 255, 0.8);
-    text-transform: uppercase;
-    font-family: roboto;
+  color: rgb(255, 255, 255, 0.8);
+  text-transform: uppercase;
+  font-family: roboto;
 }
 
 .progressbar {
-    height: 30px;
-    background-color: rgb(187, 186, 186, 0.4);
-    margin: 0 10% 3% 0;
-    display: grid;
-    grid-template-columns: repeat(10, 1fr);   
-  justify-content: center; 
-  
+  height: 30px;
+  background-color: rgb(187, 186, 186, 0.4);
+  margin: 0 10% 3% 0;
+  display: grid;
+  grid-template-columns: repeat(10, 1fr);
+  justify-content: center;
 }
 
 .deset,
@@ -32,39 +30,37 @@
 .padesat,
 .sedesat,
 .sedmdesat,
-.osmdesat{
-    background-color: rgba(255, 112, 197, 0.7);
+.osmdesat {
+  background-color: rgba(255, 112, 197, 0.7);
 }
 
 .deset-canva,
-.dvacet-canva, 
+.dvacet-canva,
 .tricet-canva,
 .ctyricet-canva,
-.padesat-canva, 
-.sedesat-canva, 
-.sedmdesat-canva, 
-.osmdesat-canva
- {
-    background-color:rgba(255, 112, 197, 0.7);
+.padesat-canva,
+.sedesat-canva,
+.sedmdesat-canva,
+.osmdesat-canva {
+  background-color: rgba(255, 112, 197, 0.7);
 }
 
 .deset-tvorba,
-.dvacet-tvorba, 
+.dvacet-tvorba,
 .tricet-tvorba,
 .ctyricet-tvorba,
-.padesat-tvorba, 
-.sedesat-tvorba, 
-.sedmdesat-tvorba, 
+.padesat-tvorba,
+.sedesat-tvorba,
+.sedmdesat-tvorba,
 .osmdesat-tvorba,
-.devadesat-tvorba
- {
-    background-color:rgba(255, 112, 197, 0.7);
+.devadesat-tvorba {
+  background-color: rgba(255, 112, 197, 0.7);
 }
 
 .deset-figma,
 .dvacet-figma,
 .tricet-figma {
-    background-color:rgba(255, 112, 197, 0.7);
+  background-color: rgba(255, 112, 197, 0.7);
 }
 
 .deset-kreativ,
@@ -74,15 +70,9 @@
 .padesat-kreativ,
 .sedesat-kreativ,
 .sedmdesat-kreativ {
-    background-color:rgba(255, 112, 197, 0.7);
+  background-color: rgba(255, 112, 197, 0.7);
 }
 
 .deset-html-css {
-    background-color:rgba(255, 112, 197, 0.7);
-
+  background-color: rgba(255, 112, 197, 0.7);
 }
-
-
-
-
-
